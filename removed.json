@@ -1,0 +1,329 @@
+{
+  "note": "Stations removed after failing two checks (build + nightly). Builds skip these. Delete an entry to bring a station back.",
+  "stations": [
+    {
+      "id": "a4ffabec-a162-4320-8cf2-049b8055b17a",
+      "name": "AIR Fm Gold Delhi",
+      "cc": "IN",
+      "urls": [
+        "https://airhlspush.pc.cdn.bitgravity.com/httppush/hlspbaudio005/hlspbaudio00564kbps.m3u8"
+      ],
+      "removedAt": "2026-11-16T14:27:18.589Z"
+    },
+    {
+      "id": "de87b1e5-9108-4e1f-a602-53af7547ca8a",
+      "name": "All India Radio News 24X7",
+      "cc": "IN",
+      "urls": [
+        "https://airhlspush.pc.cdn.bitgravity.com/httppush/hlspbaudio002/hlspbaudio002_Auto.m3u8"
+      ],
+      "removedAt": "2026-11-16T14:27:18.589Z"
+    },
+    {
+      "id": "4c9b5f1c-8d3b-4855-9ac0-eb9cf56a2566",
+      "name": "Vividh Bharti Mumbai",
+      "cc": "IN",
+      "urls": [
+        "https://airhlspush.pc.cdn.bitgravity.com/httppush/hlspbaudio011/hlspbaudio011_Auto.m3u8"
+      ],
+      "removedAt": "2026-11-16T14:27:18.589Z"
+    },
+    {
+      "id": "df3dfbcd-0666-42f1-af5f-563bc8508e90",
+      "name": "FM Gold Mumbai",
+      "cc": "IN",
+      "urls": [
+        "https://airhlspush.pc.cdn.bitgravity.com/httppush/hlspbaudio007/hlspbaudio007_Auto.m3u8"
+      ],
+      "removedAt": "2026-11-16T14:27:18.589Z"
+    },
+    {
+      "id": "f5c095e7-6517-4175-9203-5b9e907fb821",
+      "name": "AIR News 24/7",
+      "cc": "IN",
+      "urls": [
+        "https://airhlspush.pc.cdn.bitgravity.com/httppush/hlspbaudio002/hlspbaudio00264kbps.m3u8"
+      ],
+      "removedAt": "2026-11-16T14:27:18.589Z"
+    },
+    {
+      "id": "1f23e9d6-0a04-4a8b-88e2-69587f9126c1",
+      "name": "AIR Urdu",
+      "cc": "IN",
+      "urls": [
+        "https://airhlspush.pc.cdn.bitgravity.com/httppush/hlspbaudio006/hlspbaudio00632kbps.m3u8"
+      ],
+      "removedAt": "2026-11-16T14:27:18.589Z"
+    },
+    {
+      "id": "539aa037-7357-48e9-87e6-57057edd8d15",
+      "name": "Fm Rainbow Delhi 32 kbps",
+      "cc": "IN",
+      "urls": [
+        "https://airhlspush.pc.cdn.bitgravity.com/httppush/hlspbaudio004/hlspbaudio00432kbps.m3u8"
+      ],
+      "removedAt": "2026-11-16T14:27:18.589Z"
+    },
+    {
+      "id": "d59807c5-7382-433c-a2e0-61fe2589a471",
+      "name": "Hot Now Bangla",
+      "cc": "IN",
+      "urls": [
+        "https://stream.radiotreetal.com/listen"
+      ],
+      "removedAt": "2026-11-16T14:27:18.589Z"
+    },
+    {
+      "id": "7045f44a-4c99-466f-968a-379b470e5cda",
+      "name": "Akashvani AIR FM Gold",
+      "cc": "IN",
+      "urls": [
+        "https://airhlspush.pc.cdn.bitgravity.com/httppush/hlspbaudio005/hlspbaudio005_Auto.m3u8"
+      ],
+      "removedAt": "2026-11-16T14:27:18.589Z"
+    },
+    {
+      "id": "1c6030bd-0bae-4cbf-b842-ca95a26e9387",
+      "name": "AIR DELHI FM GOLD",
+      "cc": "IN",
+      "urls": [
+        "https://airhlspush.pc.cdn.bitgravity.com/httppush/hlspbaudio005/hlspbaudio00532kbps.m3u8"
+      ],
+      "removedAt": "2026-11-16T14:27:18.589Z"
+    },
+    {
+      "id": "04213783-ea30-4b6b-9deb-e83d0621f2fc",
+      "name": "Akashvani Asmita Vahini FM",
+      "cc": "IN",
+      "urls": [
+        "https://airhlspush.pc.cdn.bitgravity.com/httppush/hlspbaudio010/hlspbaudio010_Auto.m3u8"
+      ],
+      "removedAt": "2026-11-16T14:27:18.589Z"
+    },
+    {
+      "id": "017d9e5d-bb7b-4af6-b664-6da2d7097c1a",
+      "name": "All India Radio Neighbourhood Service 1",
+      "cc": "IN",
+      "urls": [
+        "https://airhlspush.pc.cdn.bitgravity.com/httppush/hlspbaudio233/hlspbaudio233_Auto.m3u8"
+      ],
+      "removedAt": "2026-11-16T14:27:18.589Z"
+    },
+    {
+      "id": "ceb09075-f0f4-42c3-96ac-d9276fc58f48",
+      "name": "S Janaki",
+      "cc": "IN",
+      "urls": [
+        "https://psrlive2.listenon.in/janaki?station=janakiradio"
+      ],
+      "removedAt": "2026-11-16T14:27:18.589Z"
+    },
+    {
+      "id": "5f3701e9-3403-4a81-b6aa-5504c1da210c",
+      "name": "aakashvani",
+      "cc": "IN",
+      "urls": [
+        "https://audio-edge-fvq45.ams.d.radiomast.io/3ccc1156-fcf8-4ba7-9a0c-28e3a465e1ae?listening-from-radio-garden=1607152226837"
+      ],
+      "removedAt": "2026-11-16T14:27:18.589Z"
+    },
+    {
+      "id": "377744f7-70da-49b7-91ca-7fde3621e452",
+      "name": "TMS Radio",
+      "cc": "IN",
+      "urls": [
+        "https://psrlive2.listenon.in/tms?station=tmsradio"
+      ],
+      "removedAt": "2026-11-16T14:27:18.589Z"
+    },
+    {
+      "id": "04660aec-e76a-45af-a1f4-a2583b39518d",
+      "name": "FM Rainbow Mumbai",
+      "cc": "IN",
+      "urls": [
+        "https://airhlspush.pc.cdn.bitgravity.com/httppush/hlspbaudio008/hlspbaudio008_Auto.m3u8"
+      ],
+      "removedAt": "2026-11-16T14:27:18.589Z"
+    },
+    {
+      "id": "dad5e72e-bbe6-42e8-958b-190543bd99aa",
+      "name": "hindiretro",
+      "cc": "IN",
+      "urls": [
+        "https://mirchiplaylive.akamaized.net/hls/live/2036929-b/MUM/MRETRO_Auto.m3u8"
+      ],
+      "removedAt": "2026-11-16T14:27:18.589Z"
+    },
+    {
+      "id": "def1acdc-828b-4d71-a0fc-081a1fffa34c",
+      "name": "印度德里广播电台",
+      "cc": "IN",
+      "urls": [
+        "https://airhlspush.pc.cdn.bitgravity.com/httppush/hlspbaudio231/hlspbaudio23132kbps.m3u8"
+      ],
+      "removedAt": "2026-11-16T14:27:18.589Z"
+    },
+    {
+      "id": "ee1fe0bb-7cd5-4834-bb8f-ac0f9cd88656",
+      "name": "unity101",
+      "cc": "IN",
+      "urls": [
+        "https://ssl.canstream.co.uk:8701/live.mp3"
+      ],
+      "removedAt": "2026-11-16T14:27:18.589Z"
+    },
+    {
+      "id": "b7b8b756-8cd4-4235-8a1c-6539e5f57afb",
+      "name": "pattas-radio",
+      "cc": "IN",
+      "urls": [
+        "https://usa2.fastcast4u.com/proxy/tamilsun?mp=/;"
+      ],
+      "removedAt": "2026-11-16T14:27:18.589Z"
+    },
+    {
+      "id": "3f35b8c7-62ec-4a17-8830-a8f1c512383c",
+      "name": "Telugu FM",
+      "cc": "IN",
+      "urls": [
+        "https://stream-289.surfernetwork.com/b9qx8kca2d0uv"
+      ],
+      "removedAt": "2026-11-16T14:27:18.589Z"
+    },
+    {
+      "id": "aab51d1e-4cd8-4e93-b844-27813f2dfbb6",
+      "name": "Dhaka FM",
+      "cc": "BD",
+      "urls": [
+        "https://play.dhakafm904.com/;"
+      ],
+      "removedAt": "2026-11-16T14:27:18.589Z"
+    },
+    {
+      "id": "58ea504f-f8df-4fd2-8220-cecd462da4ec",
+      "name": "clubmirchi",
+      "cc": "IN",
+      "urls": [
+        "https://mirchiplaylive.akamaized.net/hls/live/2036929-b/MUM/CLUBMI_Auto.m3u8"
+      ],
+      "removedAt": "2026-11-16T14:27:18.589Z"
+    },
+    {
+      "id": "b6c682b8-cd45-4035-bb23-81e807d0be5e",
+      "name": "Big Melodies",
+      "cc": "AE",
+      "urls": [
+        "https://funasia.streamguys1.com/live9"
+      ],
+      "removedAt": "2026-11-16T14:27:18.589Z"
+    },
+    {
+      "id": "ee9666ef-c9e0-4d17-aad4-58a17ead0231",
+      "name": "Bubais",
+      "cc": "IN",
+      "urls": [
+        "https://airhlspush.pc.cdn.bitgravity.com/httppush/hlspbaudio004/hlspbaudio00464kbps.m3u8"
+      ],
+      "removedAt": "2026-11-16T14:27:18.589Z"
+    },
+    {
+      "id": "48caad3b-b428-449e-bb7e-2d1ed4dfcce9",
+      "name": "Bubai Rainbow",
+      "cc": "IN",
+      "urls": [
+        "https://airhlspush.pc.cdn.bitgravity.com/httppush/hlspbaudio004/hlspbaudio004_Auto.m3u8"
+      ],
+      "removedAt": "2026-11-16T14:27:18.589Z"
+    },
+    {
+      "id": "2168a3d0-2322-4c77-a724-d2600df6637c",
+      "name": "BollyHits Radio",
+      "cc": "IN",
+      "urls": [
+        "https://az13.yesstreaming.net:8450/bollyhitsradio192kbps"
+      ],
+      "removedAt": "2026-11-16T14:27:18.589Z"
+    },
+    {
+      "id": "5dea3ae4-ba33-442e-9c50-ea893e21807a",
+      "name": "Vividh Bharti Pune",
+      "cc": "IN",
+      "urls": [
+        "https://d1tmej9eu7kw5c.cloudfront.net/7b3a089ab67dcf3c/7b3a089ab67dcf3c.m3u8"
+      ],
+      "removedAt": "2026-11-16T14:27:18.589Z"
+    },
+    {
+      "id": "f6f1bdc4-a825-44c6-b361-e6b1ae5f0858",
+      "name": "Vividh Bharati",
+      "cc": "IN",
+      "urls": [
+        "https://d3hrxqn1tritdh.cloudfront.net/146ed6ec6dea5a24/146ed6ec6dea5a24.m3u8"
+      ],
+      "removedAt": "2026-11-16T14:27:18.589Z"
+    },
+    {
+      "id": "3e2e793d-0dc0-4cdd-b03d-adc252e0c662",
+      "name": "Image FM",
+      "cc": "NP",
+      "urls": [
+        "https://www.hamropatro.com/api/radio/stream/9"
+      ],
+      "removedAt": "2026-11-16T14:27:18.589Z"
+    },
+    {
+      "id": "8a48cb73-a60c-4136-b223-95dc6e61b58b",
+      "name": "Power Radio FM 99 Islamabad",
+      "cc": "PK",
+      "urls": [
+        "https://isb.power99.live/stream"
+      ],
+      "removedAt": "2026-11-16T14:27:18.589Z"
+    },
+    {
+      "id": "a50b4c52-95a2-405b-b9e8-6d26cac93ea7",
+      "name": "CIN",
+      "cc": "NP",
+      "urls": [
+        "https://www.hamropatro.com/api/radio/stream/5630818481340416"
+      ],
+      "removedAt": "2026-11-16T14:27:18.589Z"
+    },
+    {
+      "id": "13a54b68-8721-4a7d-86ae-3a692c54ec9c",
+      "name": "mmi catholic media St. Xavier Province",
+      "cc": "IN",
+      "urls": [
+        "https://165.22.217.209:8010/radio.mp3"
+      ],
+      "removedAt": "2026-11-16T14:27:18.589Z"
+    },
+    {
+      "id": "cf67b985-728d-4635-b2d2-81ef259245fd",
+      "name": "Radio Risti",
+      "cc": "NP",
+      "urls": [
+        "https://www.hamropatro.com/api/radio/stream/5124684192415744"
+      ],
+      "removedAt": "2026-11-16T14:27:18.589Z"
+    },
+    {
+      "id": "6c4ff524-1915-425d-a136-94afb6939503",
+      "name": "Radio Audio Full Time Comedy",
+      "cc": "NP",
+      "urls": [
+        "https://www.hamropatro.com/api/radio/stream/16"
+      ],
+      "removedAt": "2026-11-16T14:27:18.589Z"
+    },
+    {
+      "id": "238e5423-626a-4b81-bdaa-7024d6ebc505",
+      "name": "Radio Bharatpur",
+      "cc": "NP",
+      "urls": [
+        "https://www.hamropatro.com/api/radio/stream/4526045613129728"
+      ],
+      "removedAt": "2026-11-16T14:27:18.589Z"
+    }
+  ]
+}

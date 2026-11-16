@@ -1,0 +1,12 @@
+{
+  "name": "Apna Radio",
+  "short_name": "Apna Radio",
+  "description": "Free live radio from around the world, in English, Hindi, Punjabi, Tamil, Urdu and more.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1a0f0f",
+  "theme_color": "#1a0f0f",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

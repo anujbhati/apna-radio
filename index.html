@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Apna Radio – Free Live Radio</title>
+  <meta name="description" content="Apna Radio: free live radio from around the world, in English, Hindi, Punjabi, Tamil, Urdu, Nepali and more. No sign-up, just tap and listen." />
+  <meta name="theme-color" content="#1a0f0f" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="icon" href="icon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="icon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Poppins:wght@300;400;500;600;700&family=Noto+Color+Emoji&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="top">
+    <a class="brand" href="#/" aria-label="Apna Radio home">
+      <img src="icon.svg" alt="" width="40" height="40" />
+      <span class="brand-text">Apna <b>Radio</b></span>
+    </a>
+    <label class="search">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10.5 3a7.5 7.5 0 0 1 5.9 12.13l4.24 4.23-1.42 1.42-4.23-4.24A7.5 7.5 0 1 1 10.5 3Zm0 2a5.5 5.5 0 1 0 0 11 5.5 5.5 0 0 0 0-11Z"/></svg>
+      <input id="search" type="search" placeholder="Search all stations, cities, genres…" autocomplete="off" />
+    </label>
+  </header>
+
+  <main>
+    <!-- ===== Home: hero, categories, favourites, recents, countries ===== -->
+    <section class="view" id="home">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="live-dot"></span> Live · Every corner of the world</p>
+          <h1>Har zubaan,<br />har dhun. <em>Free.</em></h1>
+          <p class="sub">Live radio from around the world, in the language you love. Pop, rock, Bollywood, bhangra, jazz, news and talk — no sign-up, no fees, just tap and listen.</p>
+          <div class="hero-actions">
+            <button class="btn primary" id="surprise">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17 3h4v4h-2V6.41l-4.29 4.3-1.42-1.42L17.59 5H17V3ZM3 5h4.5l11 12H19v-1h2v4h-4v-2h.09L6.62 7H3V5Zm0 12h3.62l2.6-2.84 1.36 1.48L7.5 19H3v-2Z"/></svg>
+              Surprise me
+            </button>
+            <span class="stat" id="stat">Tuning in…</span>
+          </div>
+        </div>
+        <div class="dial" aria-hidden="true">
+          <div class="dial-ring"></div>
+          <div class="dial-ring r2"></div>
+          <div class="dial-core"><img src="icon.svg" alt="" /></div>
+        </div>
+      </section>
+
+      <section class="shelf">
+        <h2>Browse by language</h2>
+        <div class="cats" id="cats">
+          <div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div>
+        </div>
+      </section>
+
+      <section class="shelf" id="favShelf" hidden>
+        <h2>Your favourites</h2>
+        <div class="list" id="favList" data-list="favs"></div>
+      </section>
+
+      <section class="shelf" id="recentShelf" hidden>
+        <h2>Recently played</h2>
+        <div class="list" id="recentList" data-list="recent"></div>
+      </section>
+
+      <section class="shelf">
+        <h2>Browse by country</h2>
+        <div class="countries" id="countries"></div>
+      </section>
+    </section>
+
+    <!-- ===== Category / country / search page: the full station list ===== -->
+    <section class="view" id="page" hidden>
+      <div class="page-head">
+        <a class="back" href="#/" id="back" aria-label="Back to home">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15.4 5.4 14 4l-8 8 8 8 1.4-1.4L8.8 12l6.6-6.6Z"/></svg>
+        </a>
+        <div class="page-titles">
+          <h1 id="pageTitle">Stations</h1>
+          <p id="pageSub"></p>
+        </div>
+      </div>
+      <div class="toolbar">
+        <label class="filter" id="filterBox">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10.5 3a7.5 7.5 0 0 1 5.9 12.13l4.24 4.23-1.42 1.42-4.23-4.24A7.5 7.5 0 1 1 10.5 3Zm0 2a5.5 5.5 0 1 0 0 11 5.5 5.5 0 0 0 0-11Z"/></svg>
+          <input id="filter" type="search" placeholder="Filter this list…" autocomplete="off" />
+        </label>
+        <label class="toggle" title="Only stations streaming at 128 kbps or better">
+          <input type="checkbox" id="hq" />
+          <span class="track"><span class="thumb"></span></span>
+          <span>HQ only</span>
+        </label>
+        <label class="pick">
+          <span id="selLabel">From</span>
+          <select id="sel" aria-label="Filter"></select>
+        </label>
+      </div>
+      <div class="list" id="list" data-list="page"></div>
+      <p class="empty" id="empty" hidden>No stations match. Try another filter.</p>
+    </section>
+
+    <footer class="foot">
+      <p class="love">Made with <span class="heart-beat" aria-label="love">❤</span> for music lovers everywhere</p>
+      <p class="fine">© <span id="year"></span> Apna Radio · All streams belong to their broadcasters</p>
+    </footer>
+  </main>
+
+  <div class="player" id="player" hidden>
+    <div class="p-station">
+      <div class="p-logo" id="pLogo"></div>
+      <div class="p-meta">
+        <div class="p-name" id="pName">—</div>
+        <div class="p-sub"><span class="p-time" id="pTime" title="How long you've been listening"><span class="eq"><i></i><i></i><i></i><i></i></span><b>LIVE</b> <span id="pClock">0:00</span></span><span id="pSub">—</span></div>
+      </div>
+    </div>
+    <div class="p-controls">
+      <button class="icon-btn" id="prev" aria-label="Previous station"><svg viewBox="0 0 24 24"><path d="M6 6h2v12H6V6Zm3.5 6 8.5 6V6l-8.5 6Z"/></svg></button>
+      <button class="play-btn" id="play" aria-label="Play">
+        <svg class="i-play" viewBox="0 0 24 24"><path d="M8 5v14l11-7L8 5Z"/></svg>
+        <svg class="i-pause" viewBox="0 0 24 24"><path d="M6 5h4v14H6V5Zm8 0h4v14h-4V5Z"/></svg>
+        <span class="spinner"></span>
+      </button>
+      <button class="icon-btn" id="next" aria-label="Next station"><svg viewBox="0 0 24 24"><path d="M16 6h2v12h-2V6ZM6 18l8.5-6L6 6v12Z"/></svg></button>
+    </div>
+    <div class="p-extra">
+      <button class="icon-btn fav-btn" id="pFav" aria-label="Add to favourites"><svg viewBox="0 0 24 24"><path d="M12 21s-7.5-4.6-9.6-9.2C.9 8.4 3.1 4.5 6.9 4.5c2.1 0 3.6 1.1 5.1 2.9 1.5-1.8 3-2.9 5.1-2.9 3.8 0 6 3.9 4.5 7.3C19.5 16.4 12 21 12 21Z"/></svg></button>
+      <button class="icon-btn" id="sleep" aria-label="Sleep timer"><svg viewBox="0 0 24 24"><path d="M12.3 2a8 8 0 1 0 9.7 9.7A9 9 0 1 1 12.3 2Z"/></svg><span class="badge" id="sleepBadge" hidden></span></button>
+      <div class="vol">
+        <button class="icon-btn" id="mute" aria-label="Mute"><svg viewBox="0 0 24 24"><path d="M3 9h4l5-4v14l-5-4H3V9Zm13.5 3A4.5 4.5 0 0 0 14 8v8a4.5 4.5 0 0 0 2.5-4ZM14 3.2v2.1a7 7 0 0 1 0 13.4v2.1a9 9 0 0 0 0-17.6Z"/></svg></button>
+        <input type="range" id="volume" min="0" max="1" step="0.01" value="0.9" aria-label="Volume" />
+      </div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <audio id="audio" preload="none"></audio>
+
+  <script src="core.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
